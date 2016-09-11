@@ -60,12 +60,14 @@ public class PlayerMove : MonoBehaviour {
 			
 			}
 
+			/*
 			if (Input.GetKeyDown (KeyCode.Space) && !status.attacking) { 
-				//anim.SetBool ("is_Jump", true);
+				anim.SetBool ("is_Jump", true);
 				direction.y = jump_speed;
 			} else {
-				//anim.SetBool ("is_Jump", false);
+				anim.SetBool ("is_Jump", false);
 			}
+			*/
 
 			//if (chara.velocity.magnitude < 0.1 && Input.GetButton("Fire1")) { 
 			if (Input.GetButton("Fire1")) { 

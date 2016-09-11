@@ -40,7 +40,6 @@ public class slide : MonoBehaviour {
 		}
 
 		if (Physics.Raycast(transform.position, Vector3.down, out slideHit, LayerMask.NameToLayer("Defaul"))) {
-			//衝突した際の面の角度とが滑らせたい角度以上かどうかを調べます。
 
 			if (Vector3.Angle(slideHit.normal, Vector3.up) > 0){
 				isSliding = true;
