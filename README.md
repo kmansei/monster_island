@@ -13,7 +13,7 @@ https://unityroom.com/games/monster-island
 
 ## Demo
 
-## Usage
+## 遊び方
 W = 前に移動<br>
 A = 左に移動<br>
 S = 後に移動<br>
